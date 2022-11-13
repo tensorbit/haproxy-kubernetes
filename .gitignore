@@ -1,30 +1,7 @@
-# General files
-*.tgz
-.project
-.deploy
-
-# MacOS
-._*
-.DS_Store
-
-# JetBrains
-.idea/
-*.iml
-
-# VSC
+# IDE resources
 .vscode
+.idea
+.devcontainer/
 
-# Emacs
-*~
-\#*\#
-.\#*
-
-# Vim
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-
-# TODO
-TODO
+# Helm resources
+charts/*/charts
