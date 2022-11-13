@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  kubernetes-ingress:
+  - annotations:
+      artifacthub.io/changes: |
+        - Use Ingress Controller 1.9.0 version for base image
+        - Require K8s 1.19+
+    apiVersion: v2
+    appVersion: 1.9.0
+    created: "2022-11-13T01:54:52.481979-06:00"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: a98e8ba982577461d82f2d6dc468ae898ff319cfb2e7aaa35046d91dc40ecb3e
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/tensorbit/haproxy-kubernetes/main//build/kubernetes-ingress-1.24.0.tgz
+    version: 1.24.0
+generated: "2022-11-13T01:54:52.476947-06:00"
